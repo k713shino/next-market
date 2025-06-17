@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation"
 import Image from "next/image"
 import useAuth from "../../../utils/useAuth"
 
-const DleteItem = (context) => {
+const DeleteItem = (context) => {
     const [title, setTitle] = useState("")
     const [price, setPrice] = useState("")
     const [image, setImage] = useState("")
